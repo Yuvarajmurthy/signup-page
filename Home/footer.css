@@ -1,0 +1,14 @@
+
+footer{
+    grid-area: footer;
+    align-self: self-end;
+    background-color: black;
+    color: white;
+    height: fit-content;
+}
+
+p{
+    text-align: center;
+    font-size: 23px; 
+    padding: 30px;
+}
