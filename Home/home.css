@@ -10,10 +10,10 @@ body{
      "main"
      "footer"
      ;
-     grid-template-rows: 1FR 2fr 100px;
+     grid-template-rows: 1fr 2fr 100px;
      grid-template-columns:1fr; 
-     height: fit-content;
-     width: fit-content;
+     height: 100vh;
+     width: 100vw;
 }
 
 
