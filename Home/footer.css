@@ -4,7 +4,8 @@ footer{
     align-self: self-end;
     background-color: black;
     color: white;
-    height: fit-content;
+    height: 100%;
+    width: 100%;
 }
 
 p{

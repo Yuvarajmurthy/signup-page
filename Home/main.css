@@ -18,6 +18,8 @@ main{
     grid-template-rows: repeat(4,1fr);
     gap: 15px;
     padding: 15px;
+    height: 100%;
+    width: 100%;
     }
     
     .tem-1,.tem-2,.tem-3, .tem-4,.tem-5,.tem-6{
