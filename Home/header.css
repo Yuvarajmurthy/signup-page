@@ -14,7 +14,7 @@ header{
      display: flex;
      flex-wrap: row wrap;
      align-content: center;
-     gap: 5px;
+     gap: 100px;
      padding: 10px 25px;
     }
     
@@ -26,21 +26,19 @@ header{
      padding: 5px;
     }
 
-    .Menu,.About-us,.logout{
+    .Menu,.logout{
      background-color: rgb(230, 230, 230);
      color: rgb(0, 0, 0); 
      list-style: none;
-     padding: 8px 20px;
+     padding: 15px 20px;
      margin: 3px;   
      transition: 0.15s linear;
      border-radius: 3px;
     }
 
-    .Menu:hover,.About-us:hover,.logout:hover{
+    .Menu:hover,.logout:hover{
          background-color: black;
          color: #fff;
-         height: 50px;
-         width: 30%;
     }  
     
     nav a{
@@ -52,7 +50,7 @@ header{
      flex-grow: 2;
      flex-shrink: 2;
      align-self: center;
-     text-align: end;
+     text-align: start;
      }
 
      .main-head h1{  
@@ -94,9 +92,23 @@ header{
           height: 60px;
           width: 20%;
      }
+
+     .profile{
+          padding: 10px;
+     }
  
      .profile  img{
           width: 50px;
           height: 50px;
           border-radius: 50%;   
+          background-color: #fff;
+          transition: 0.15s;
+          
+     }
+
+     .profile  img:hover{
+          background-color: rgb(255, 247, 247);
+          width: 60px;
+          height: 60px;
+          
      }
