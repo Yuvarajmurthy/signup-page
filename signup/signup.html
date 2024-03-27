@@ -9,48 +9,48 @@
 <body>
     <header><h1>signup</h1></header>
     <main>
-        <form>
+        <form action="../php/signup.php" method="post">
             <div class="input">
                 <div class="code">
                     <label for="code-number">Code</label>
                 </div>
                 <div class="text">
-                    <input type="text" id="code-number">
+                    <input type="text" id="code-number" name="code">
                 </div>
     
                 <div class="student">
                     <label for="name">student</label>
                 </div>
                 <div class="text">
-                    <input type="text" id="name">
+                    <input type="text" id="name" name="student">
                 </div>
     
                 <div class="Registration">
                     <label for="number">Registration</label>
                 </div>
                 <div class="text">
-                    <input type="text" id="number">
+                    <input type="text" id="number" name="Registration_No">
                 </div>
     
                 <div class="E-mail">
                     <label for="mail">E-mail</label>
                 </div>
                 <div class="text">
-                    <input type="text" id="mail">
+                    <input type="text" id="mail" name="email">
                 </div>
     
                 <div class="Password">
                     <label for="Password-1">Password</label>
                 </div>
                 <div class="text">
-                    <input type="text" id="Password-1">
+                    <input type="text" id="Password-1" name="password">
                 </div>
     
                 <div class="confirmation">
                     <label for="Password-2">confirmation</label>
                 </div>
                 <div class="text">
-                    <input type="text" id="Password-2">
+                    <input type="text" id="Password-2" name="confirmation">
                 </div>    
             </div>
             
@@ -67,7 +67,7 @@
 
     <footer>
         <div class="copyrights">
-            <p>Copyright</p>
+            <p>&copy;2024 E-placement. All Rights Reserved.</p>
         </div>
     </footer>
 </body>

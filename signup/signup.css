@@ -1,15 +1,15 @@
 *{
 margin: 0%;
 padding: 0%;
-border: 0;
 }
 
 body{
 display: grid;
-grid-template-rows:80px 4fr 1fr ;
+grid-template-rows:100px 1fr 150px ;
 background-image: url("./Scene-1.jpg");
 background-repeat: no-repeat;
 background-size: cover;
+height: fit-content;
 }
 
 header{
@@ -102,3 +102,4 @@ text-align: center;
 color: white;
 padding: 45px;
 }
+
